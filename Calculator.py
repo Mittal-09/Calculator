@@ -29,5 +29,4 @@ class BasicCalculator:
         if b == 0:
             raise ZeroDivisionError("Modulus by zero")
         return a % b
-        print(bakchod)
-print(sum([1,2,3]))
+    
