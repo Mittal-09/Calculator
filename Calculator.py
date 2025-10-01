@@ -30,3 +30,4 @@ class BasicCalculator:
             raise ZeroDivisionError("Modulus by zero")
         return a % b
         print(bakchod)
+print(sum([1,2,3]))
