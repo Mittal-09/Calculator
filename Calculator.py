@@ -12,7 +12,7 @@ class BasicCalculator:
         return a + b
     def subtract(self, a, b):
         self._check_numbers(a, b)
-        return a - b
+        return a % b
     def multiply(self, a, b):
         self._check_numbers(a, b)
         return a * b
@@ -28,5 +28,5 @@ class BasicCalculator:
         self._check_numbers(a, b)
         if b == 0:
             raise ZeroDivisionError("Modulus by zero")
-        return a % b
+        return a + b
     
